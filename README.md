@@ -17,8 +17,8 @@ This chat app makes online chatting easier to understand with the inclusion of e
 
 ## Build With
 
-Node, Express, Next, React, Python, MongoDB, Socket.IO, Tailwind CSS​
+Node, Express, Next, React, Python, MongoDB, Socket.IO, Tailwind CSS
 
 ## Coming Soon
 
-Deployment on AWS and Netlify is currently being worked on and is coming soon!
+Deployment on AWS is currently being worked on and is coming soon! In the mean time, preview the frontend at https://emotichat.netlify.app/ !
