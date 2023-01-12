@@ -5,6 +5,7 @@ This chat app makes online chatting easier to understand with the inclusion of e
 ## How to Use
 
 - Download the full project.
+- Make sure MongoDB is installed and active. 
 - In your terminal, make sure you are in the `client` directory. Then, run `npm run build` followed by `npm run start`.
 - Open another terminal, this time in the `server` directory, and run `npm start`
 - Finally, navigate to `localhost:3000`, enter a username and a room code, and start chatting!
