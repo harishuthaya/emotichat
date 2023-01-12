@@ -11,6 +11,7 @@ const { getEmotion } = require('./emotion');
 const router = require('./router');
 const ORIGIN = process.env.ORIGIN || 'http://localhost';
 const PORT = process.env.PORT || 4000;
+const MONGO = process.env.DATABASE_URL || 'mongodb://127.0.0.1:27017/emotichat';
 const fs = require('fs');
 
 dotenv.config();
@@ -27,7 +28,7 @@ const io = new Server(server, {
 });
 
 mongoose.connect(
-  process.env.DATABASE_URL,
+  MONGO,
   () => {
     console.log('Connected to MongoDB');
   },
