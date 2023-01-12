@@ -9,7 +9,7 @@ const Room = require('./dbRoom');
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 const { getEmotion } = require('./emotion');
 const router = require('./router');
-const ORIGIN = process.env.ORIGIN || 'http://localhost:3000';
+const ORIGIN = process.env.ORIGIN || 'http://localhost';
 const PORT = process.env.PORT || 4000;
 const fs = require('fs');
 
