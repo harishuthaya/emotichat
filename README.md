@@ -17,10 +17,10 @@ If you want to test the project on your local machine, follow the steps below.
 
 - Live messaging with multiple users.
 - Emotion detection on every message sent (machine learning model picks between 6 different emotions with 89% accuracy)
-- Messages stored in a MongoDB database so that useres who join later can view previous messages.
+- Messages stored in a MongoDB database so that users who join later can view previous messages.
 
 ## Built With
 
-Node, Express, Next, React, Python, MongoDB, Socket.IO, Tailwind CSS
+Node, Express, Next, React, Python, MongoDB, Socket.IO, Tailwind CSS.
 \
 Backend deployed on Heroku and frontend deployed on Netlify.
